@@ -1,9 +1,8 @@
 #!/bin/bash
 
-set -x # to test stderr output in /var/log/killercoda
+mkdir -p ~/.docker/cli-plugins/
+curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
 
-echo starting... # to test stdout output in /var/log/killercoda
-
-sleep 5 # some long running background task
+chmod +x ~/.docker/cli-plugins/docker-compose
 
 touch /tmp/finished
