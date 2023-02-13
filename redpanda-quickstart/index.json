@@ -9,7 +9,6 @@
       {
         "title": "Start Redpanda",
         "text": "step1.md",
-        "background": "background.sh",
         "foreground": "foreground.sh"
       }
     ],
