@@ -1,0 +1,1 @@
+Spin up a Redpanda cluster, produce to a topic and consume from a topic, and explore your cluster in Redpanda Console.
