@@ -7,8 +7,3 @@ docker compose up -d
 Now access Redpanda Console using this link:
 
 [ACCESS CONSOLE]({{TRAFFIC_HOST1_8080}})
-
-It's also possible to access ports using the top-right navigation in the terminal.
-Or we can display the link to that page:
-
-[ACCESS PORTS]({{TRAFFIC_SELECTOR}})
