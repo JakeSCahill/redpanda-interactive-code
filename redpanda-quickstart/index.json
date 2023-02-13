@@ -10,7 +10,12 @@
         "title": "Start Redpanda",
         "text": "step1.md"
       }
-    ]
+    ],
+    "assets": {
+      "host01": [
+        {"file": "docker-compose.yml", "target": "/root", "chmod": "+w"}
+      ]
+    }
   },
   "backend": {
     "imageid": "ubuntu"
